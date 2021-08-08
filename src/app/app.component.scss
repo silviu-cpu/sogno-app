@@ -6,17 +6,7 @@
     background: #000;
 }
 
-.background{
-    width: 100%;
-    height: 100vh;
-    background:linear-gradient(
-        180deg
-        ,transparent 27%,rgba(41, 231, 214, 1)),radial-gradient(farthest-corner,transparent 0,rgba(41, 231, 214, 1) 100%),url('/assets/images/background.jpg') no-repeat;
-    background-size: cover;
-    background-position: center center;
-    overflow-y: hidden;
-    background-blend-mode: multiply;
-}
+
 
 .text-color{
     color:#BABDC4;
@@ -28,4 +18,20 @@
 
 .p-0{
     padding: 0;
+}
+
+.text-color-gray{
+    color:#B7BDC4;
+}
+
+.text-color-white{
+    color:#fff;
+}
+
+.footer-gray{
+    background: #15181D;
+}
+
+a {
+    color:white;
 }

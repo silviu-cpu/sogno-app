@@ -1,22 +1,52 @@
-<div>
-    <nav class="navbar navbar-grayer">
-        <div class="container">
-          <a class="navbar-brand" href="#">Sogno - Art Creators</a>
-        </div>
-      </nav>
-</div>
-<div>
-    <nav class="navbar navbar-gray">
-        <div class="container">
-          <a class="navbar-brand" href="#">Navbar</a>
-        </div>
+<div class="container-fluid p-0">
+    <nav class="navbar navbar-gray navbar-expand-md  position-center">     
+          <ul class="nav">
+            <li>
+              <a class="nav-link text-color" href="https://www.instagram.com/sognomusic.ro/" target="_blank">Facebook</a>
+            </li>
+            <li>
+              <a class="nav-link text-color" href="https://www.facebook.com/sognomusic" target="_blank">Instagram</a>
+            </li>
+            <li>
+              <a class="nav-link text-color" href="https://www.youtube.com/channel/UCenrHwE3KQm7XZ0kAfyjqrw" target="_blank">Youtube</a>
+            </li>
+          </ul>
       </nav>
 </div>
 
+<div class="container-fluid p-0">
+  <nav class="navbar navbar-expand-md navbar-grayer text-color">
+    <a href="/" class="navbar-brand text-color">Sogno - Art Creators</a>
 
-<div class="d-flex justify-content-start align-items-center text-center background text-color ml-20">
-    <div class="container d-flex justify-content-start">
-        <h1>Sogno</h1>
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapsse"
+      data-bs-target="#toggleMobileMenu"
+      aria-controls="toggleMobileMenu"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="toggleMobileMenu">
+      <ul class="navbar-nav ms-auto text-center">
+        <li>
+          <a class="nav-link text-color" href="#">Home</a>
+        </li>
+        <li>
+          <a class="nav-link text-color" href="#">Events</a>
+        </li>
+        <li>
+          <a class="nav-link text-color" href="#">Contact</a>
+        </li>
+        <li>
+          <a class="nav-link text-color"  href="https://www.youtube.com/channel/UCenrHwE3KQm7XZ0kAfyjqrw" target="_blank">Our Videos</a>
+        </li>
+      </ul>
     </div>
-    
+  </nav>
 </div>
+
+
+<app-home></app-home>

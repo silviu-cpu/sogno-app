@@ -3,24 +3,27 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { EventsComponent } from './components/events/events.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http'
+import { ContactService } from './services/contact.service';
 
 @NgModule({
   declarations: [
     AppComponent,
-    FooterComponent,
     EventsComponent,
     ContactComponent,
     HomeComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [ ContactService ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

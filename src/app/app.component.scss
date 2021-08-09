@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.merienda{
+    font-family:'Merienda', cursive;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .navbar-gray{
     background: #15181D;
 }
@@ -5,8 +16,6 @@
 .navbar-grayer{
     background: #000;
 }
-
-
 
 .text-color{
     color:#BABDC4;
@@ -32,4 +41,28 @@
     background: #15181D;
 }
 
-// Merienda
+
+.copyright{
+    text-decoration: none;
+}
+
+.underline-hover-effect{
+    display:inline-block;
+    position: relative;
+}
+
+.underline-hover-effect::before{
+    content: "";
+    position:absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgba(41, 231, 214, 1);
+    background-image: linear-gradient(to right, rgba(41, 231, 214, 1), white);
+    transition: width 0.25s ease-out;
+}
+
+.underline-hover-effect:hover::before{
+    width: 100%;
+}

@@ -2,21 +2,21 @@
     <nav class="navbar navbar-grayer navbar-expand-md  position-center">     
           <ul class="nav">
             <li>
-              <a class="nav-link text-color" href="https://www.instagram.com/sognomusic.ro/" target="_blank">Facebook</a>
+              <a class="nav-link text-color montserrat underline-hover-effect" href="https://www.facebook.com/sognomusic" target="_blank">Facebook</a>
             </li>
             <li>
-              <a class="nav-link text-color" href="https://www.facebook.com/sognomusic" target="_blank">Instagram</a>
+              <a class="nav-link text-color montserrat underline-hover-effect" href="https://www.instagram.com/sognomusic.ro/" target="_blank">Instagram</a>
             </li>
             <li>
-              <a class="nav-link text-color" href="https://www.youtube.com/channel/UCenrHwE3KQm7XZ0kAfyjqrw" target="_blank">Youtube</a>
+              <a class="nav-link text-color montserrat underline-hover-effect" href="https://www.youtube.com/channel/UCenrHwE3KQm7XZ0kAfyjqrw" target="_blank">Youtube</a>
             </li>
           </ul>
       </nav>
 </div>
 
-<div class="container p-0">
+<div class="container-fluid p-0">
   <nav class="navbar navbar-expand-md navbar-gray text-color">
-    <a href="/" class="navbar-brand text-color">Sogno - Art Creators</a>
+    <a href="/" class="navbar-brand text-color merienda">Sogno - Art Creators</a>
 
     <button
       class="navbar-toggler"
@@ -32,31 +32,29 @@
     <div class="collapse navbar-collapse" id="toggleMobileMenu">
       <ul class="navbar-nav ms-auto text-center">
         <li>
-          <a class="nav-link text-color" href="#">Home</a>
+          <a class="nav-link text-color montserrat underline-hover-effect" routerLink="">Home</a>
         </li>
         <li>
-          <a class="nav-link text-color" href="#">Events</a>
+          <a class="nav-link text-color montserrat underline-hover-effect" routerLink="events">Events</a>
         </li>
         <li>
-          <a class="nav-link text-color" href="#">Contact</a>
+          <a class="nav-link text-color montserrat underline-hover-effect" routerLink="contact">Contact</a>
         </li>
         <li>
-          <a class="nav-link text-color"  href="https://www.youtube.com/channel/UCenrHwE3KQm7XZ0kAfyjqrw" target="_blank">Our Videos</a>
+          <a class="nav-link text-color montserrat underline-hover-effect"  href="https://www.youtube.com/channel/UCenrHwE3KQm7XZ0kAfyjqrw" target="_blank">Our Videos</a>
         </li>
       </ul>
     </div>
   </nav>
 </div>
 
-
-<app-home></app-home>
-
+<router-outlet></router-outlet>
 
 <footer class="text-center text-lg-start navbar-grayer">
   <!-- Copyright -->
-  <div class="text-center p-3  text-color">
+  <div class="text-center p-3  text-color montserrat">
     © 2021 Copyright:
-    <a class="text-dark text-color-white">Sogno </a>
+    <a class="text-dark text-color copyright merienda" style="text-decoration: none; color: rgba(41, 231, 214, 1) !important">Sogno </a>
   </div>
   <!-- Copyright -->
 </footer>

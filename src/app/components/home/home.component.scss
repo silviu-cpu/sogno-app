@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.merienda{
+    font-family:'Merienda', cursive;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .background{
     width: 100%;
     height: 100vh;
@@ -11,7 +22,7 @@
 }
 
 .text-color{
-    color:#BABDC4;
+    color:#d3d3d3;
 }
 
 .logo{
@@ -19,11 +30,15 @@
     height: 200px;
 }
 
-
 .text-color-gray{
     color:#B7BDC4;
 }
 
 .text-color-white{
     color:#fff;
+}
+
+.center{
+    display:flex;
+    justify-content: center;
 }

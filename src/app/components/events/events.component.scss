@@ -13,3 +13,8 @@
     background-color: #000;
     border-color: rgba(41, 231, 214, 1);
 }
+
+.hover-effect:hover{
+    color:rgba(41, 231, 214, 1);
+    transition: 0.5s ease-in;
+}

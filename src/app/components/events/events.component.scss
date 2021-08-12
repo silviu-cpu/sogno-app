@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+.merienda{
+    font-family:'Merienda', cursive;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+}
 .center{
     height: 80vh;
     display: flex;
@@ -17,4 +27,9 @@
 .hover-effect:hover{
     color:rgba(41, 231, 214, 1);
     transition: 0.5s ease-in;
+}
+
+.image{
+    width:341.46px;
+    height:192.06px;
 }

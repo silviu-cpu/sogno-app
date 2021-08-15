@@ -40,5 +40,21 @@
       overflow-y:scroll;
       overflow-x:hidden;
     }
-    
+
+}
+
+@media screen and (min-width: 1400px) {
+    .center {
+        height: calc(100vh - 152px);
+    }
+  }
+  @media screen and (min-width: 1600px) {
+    .center {
+        height: calc(100vh - 152px);
+    }
+  }
+  @media screen and (min-width: 1900px) {
+    .center {
+        height: calc(100vh - 152px);
+    }
   }

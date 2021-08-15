@@ -21,6 +21,27 @@
     color:#BABDC4;
 }
 
+
+.navbar-toggler span {
+    display:block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background: #fff;
+}
+
+.navbar-toggler span + span {
+    margin-top: 4px;
+    width: 22px;
+    background: rgba(41, 231, 214, 1);
+    
+}
+
+.navbar-toggler span + span + span {
+    width: 22px;
+    background: white;
+}
+
 .position-center{
     justify-content: center !important;
 }

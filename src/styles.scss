@@ -1,1 +1,21 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    height: 100vh;
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+      overflow-x:hidden;
+      overflow-y:hidden;
+      height: 100vh;
+    }
+}
+
+
+@media only screen and (min-width:  1200px) {
+    body {
+      overflow-x:hidden;
+      overflow-y:hidden;
+      height: 100vh;
+    }
+}

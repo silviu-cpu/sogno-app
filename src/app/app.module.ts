@@ -8,7 +8,7 @@ import { ContactComponent } from './components/contact/contact.component';
 import { HomeComponent } from './components/home/home.component';
 import { ReactiveFormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http'
-import { ContactService } from './services/contact.service';
+
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { ContactService } from './services/contact.service';
     ReactiveFormsModule,
     HttpClientModule
   ],
-  providers: [ ContactService ],
+  
   bootstrap: [AppComponent]
 })
 export class AppModule { }

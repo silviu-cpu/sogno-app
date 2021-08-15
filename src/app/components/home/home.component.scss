@@ -11,7 +11,7 @@
 
 .background{
     width: 100%;
-    height: 100vh;
+    height: calc(100vh - 152px);
     background:linear-gradient(
         180deg
         ,transparent 27%,rgba(41, 231, 214, 1)),radial-gradient(farthest-corner,transparent 0,rgba(41, 231, 214, 1) 100%),url('/assets/images/background.jpg') no-repeat;
@@ -42,3 +42,9 @@
     display:flex;
     justify-content: flex-end;
 }
+
+@media only screen and (max-width: 600px) {
+    .center {
+      justify-content: center;
+    }
+  }
